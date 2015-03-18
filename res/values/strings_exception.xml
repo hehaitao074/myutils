@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="e_net_error">网络错误！</string>
+    <string name="e_net_time">网络超时！</string>
+    <string name="e_json">json解析错误！</string>
+
+</resources>

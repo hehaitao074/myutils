@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="big_images">
+        <item>http://content.dili360.com/public/data/pic/201211/800_1352702856498.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201211/800_1352453388841.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350125013.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350358130.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350115336.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350124332.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350123849.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350124594.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1351248500.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350124773.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350124777.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350124049.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350125008.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350124054.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350125003.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350113608.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350124063.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350124318.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350113982.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350124338.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/800_1350113795.jpg</item>
+    </string-array>
+    <string-array name="small_images">
+        <item>http://content.dili360.com/public/data/pic/201211/480_1352702856498.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201211/480_1352453388841.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350125013.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350358130.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350115336.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350124332.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350123849.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350124594.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1351248500.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350124773.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350124777.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350124049.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350125008.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350124054.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350125003.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350113608.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350124063.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350124318.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350113982.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350124338.jpg</item>
+        <item>http://content.dili360.com/public/data/pic/201210/480_1350113795.jpg</item>
+    </string-array>
+
+</resources>

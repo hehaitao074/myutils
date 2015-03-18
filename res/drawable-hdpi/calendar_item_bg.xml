@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 形状 .长方形 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:shape="rectangle"
+    >
+    <!-- 拐角.直角 -->
+    <corners android:radius="5dp"/>
+    <!-- 底色.透明 -->
+    <solid android:color="#00272727"/>
+    <!-- 描边 .灰色-->
+    <stroke android:width="0.7dip" 
+        android:color="@color/color_gray_press" 
+        android:dashGap="0px"/>
+</shape>

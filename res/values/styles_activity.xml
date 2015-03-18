@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- activity之间切换的动画 -->
+    <style name="activity_noTitle_translucent" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="activity_noTitle_dialog" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Dialog</item>
+    </style>
+
+    <style name="activity_noTitle_normal" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Activity</item>
+    </style>
+
+    <style name="activity_noTitle_inputMethod" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.InputMethod</item>
+    </style>
+
+    <style name="activity_noTitle_toast" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Toast</item>
+    </style>
+
+    <style name="activity_fullscreen_translucent" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="activity_fullscreen_dialog" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Dialog</item>
+    </style>
+
+    <style name="activity_fullscreen_normal" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Activity</item>
+    </style>
+
+    <style name="activity_fullscreen_inputMethod" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.InputMethod</item>
+    </style>
+
+    <style name="activity_fullscreen_toast" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Toast</item>
+    </style>
+
+    <style name="activity_transparent_translucent" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Translucent</item>
+    </style>
+
+    <style name="activity_transparent_dialog" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Dialog</item>
+    </style>
+
+    <style name="activity_transparent_normal" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Activity</item>
+    </style>
+
+    <style name="activity_transparent_inputMethod" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.InputMethod</item>
+    </style>
+
+    <style name="activity_transparent_toast" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@+android:style/Animation.Toast</item>
+    </style>
+
+</resources>

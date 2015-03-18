@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">ItotemBase</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+<!--     错误日志类型标识 -->
+    <string name="error_mime_type">errors/itotemUnhandleCatcher</string>
+</resources>

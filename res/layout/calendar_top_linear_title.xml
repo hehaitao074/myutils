@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="25dip"
+    android:orientation="horizontal" 
+    android:layout_marginLeft="-10dip"
+    android:layout_marginRight="-10dip"
+    android:background="@drawable/calendar_title"
+    android:gravity="center">
+    	<RelativeLayout 
+    	    android:id="@+id/calendar_top_left"
+    	    android:layout_width="120dip"
+            android:layout_height="25dip"
+    	    android:layout_weight="1.0"
+    	    android:layout_gravity="center_horizontal"
+    	    android:paddingBottom="8dip"
+    	    >
+	    <ImageView   
+	        android:id="@+id/calendar_top_img_left"         
+            android:layout_width="22dip"
+            android:layout_height="22dip"
+            android:background="@drawable/button_previous_xml" 
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true"
+            />
+	    </RelativeLayout>
+	    <RelativeLayout 
+    	    android:layout_width="fill_parent"
+            android:layout_height="25dip"
+    	    android:layout_weight="1.0"
+    	    android:layout_gravity="center"
+    	    >
+		<!-- android:background="@drawable/course_center_pressed" -->
+        <TextView
+            android:id="@+id/calendar_top_center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"           
+            android:textColor="@android:color/white"
+            android:textSize="14sp"  
+            android:layout_centerInParent="true"  
+            android:gravity="center"  
+            android:text="2012年06月"              
+			/>
+        </RelativeLayout>
+		<RelativeLayout
+    	    android:layout_width="120dip"
+            android:layout_height="25dip"
+    	    android:layout_weight="1.0"
+    	    android:id="@+id/calendar_top_right"
+    	    android:layout_gravity="center_horizontal"
+    	    android:paddingBottom="8dip"
+    	    >
+        <ImageView   
+            android:id="@+id/calendar_top_img_right"        
+            android:layout_width="22dip"
+            android:layout_height="22dip"
+            android:background="@drawable/button_next_xml" 
+            android:scaleType="centerInside"
+            android:layout_centerInParent="true"           
+            />
+        </RelativeLayout>
+</LinearLayout>
+
+
+        

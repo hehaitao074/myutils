@@ -1,0 +1,57 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iss"
+    android:versionCode="4"
+    android:versionName="1.4" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+    <supports-screens
+            android:smallScreens="true"
+            android:normalScreens="true"
+            android:largeScreens="true"
+            android:resizeable="true"
+            android:anyDensity="true" />
+
+    <application
+        android:icon="@drawable/itotem_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".appname.MainActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.iss.loghandler.ErrorHandler" android:process=":myexeptionprocess" 
+			android:taskAffinity="system.ErrorHandler"> 
+	 		<intent-filter> 
+		 		<category android:name="android.intent.category.DEFAULT" /> 
+				<action android:name="android.intent.action.VIEW" /> 
+ 				<data android:mimeType="@string/error_mime_type" /> 
+   			</intent-filter> 
+  		</activity>  
+
+        <service android:name="com.iss.service.PushServiceMode"
+            android:process=":itotemService"
+            android:label="itotem后台服务">
+        </service>
+        
+         <receiver android:name="com.iss.service.BootReceiver">
+		    <intent-filter>
+		    <!-- 系统启动完成后会调用-->
+		    <action android:name="android.intent.action.BOOT_COMPLETED">
+		    </action>
+		    </intent-filter>
+		</receiver>
+		
+		<meta-data android:name="SZICITY_APPKEY" android:value="3clhitctfu6k"/>
+		<meta-data android:name="SZICITY_CHANNEL" android:value="CHANNEL108"/>
+		     
+    </application>
+
+</manifest>
